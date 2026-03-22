@@ -11,6 +11,9 @@ from google.genai import types
 
 from agent import orchestrator
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # ── App setup ────────────────────────────────────────────
 app = FastAPI(title="Calculator Multi-Agent")
 
